@@ -328,7 +328,11 @@ docker-compose  down
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+```
+on your browser, you can access Swagger UI
 
+http://localhost:8000/swagger/
+```
   
 
 _For more examples, please refer to the [Documentation](https://github.com/LondheShubham153/crispy_credits.git)_
