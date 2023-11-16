@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+
+  web:
+    build: .
+    entrypoint: /app/app-entrypoint.sh
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env
+    volumes:
+      - static_volume:/app/django_static
+    environment:
+      DEBUG: "True"
+      DJANGO_DB: postgresql
+      POSTGRES_HOST: db
+      POSTGRES_NAME: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_PORT: 5432
+    depends_on: 
+      - db
+
+  db:
+    image: postgres:13.0-alpine
+    restart: unless-stopped
+    volumes:
+        - postgres_data:/var/lib/postgresql/data/
+    environment:
+        POSTGRES_DB: postgres
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+    expose:
+        - 5432
+volumes:
+    static_volume: {}
+    postgres_data: {}

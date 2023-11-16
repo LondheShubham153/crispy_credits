@@ -162,3 +162,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ],
 }
+
+STATIC_URL = "/django_static/"
+STATIC_ROOT = BASE_DIR / "django_static"
+

@@ -331,7 +331,7 @@ docker-compose  down  -d
 
   
 
-_For more examples, please refer to the [Documentation](https://github.com/LondheShubham153/go2_sell_online.git)_
+_For more examples, please refer to the [Documentation](https://github.com/LondheShubham153/crispy_credits.git)_
 
   
   
@@ -343,7 +343,7 @@ _For more examples, please refer to the [Documentation](https://github.com/Londh
 
   
 
-See the [open issues](https://github.com/LondheShubham153/go2_sell_online/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/LondheShubham153/crispy_credits/issues) for a list of proposed features (and known issues).
 
   
   
@@ -394,7 +394,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Shubham Londhe - [shubhamlondhe1996](https://www.linkedin.com/in/shubhamlondhe1996/) - My LinkedIn
 
-Project Link: [https://github.com/LondheShubham153/go2_sell_online](https://github.com/LondheShubham153/go2_sell_online)
+Project Link: [https://github.com/LondheShubham153/crispy_credits](https://github.com/LondheShubham153/crispy_credits)
 
   
   
