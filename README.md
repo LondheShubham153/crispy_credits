@@ -117,7 +117,7 @@
 
 <td  align="center">
 
-<img  src="images/1.png"  alt="product-screenshot-1"  width="300">
+<img  src="images/1.png"  alt="product-screenshot-1"  width="600">
 
 <br>
 
@@ -127,7 +127,7 @@ Product Screenshot 1
 
 <td  align="center">
 
-<img  src="images/2.png"  alt="product-screenshot-2"  width="300">
+<img  src="images/2.png"  alt="product-screenshot-2"  width="600">
 
 <br>
 
@@ -141,7 +141,7 @@ Product Screenshot 2
 
 <td  align="center">
 
-<img  src="images/3.png"  alt="product-screenshot-3"  width="300">
+<img  src="images/3.png"  alt="product-screenshot-3"  width="600">
 
 <br>
 
@@ -151,7 +151,7 @@ Product Screenshot 3
 
 <td  align="center">
 
-<img  src="images/4.png"  alt="product-screenshot-4"  width="300">
+<img  src="images/4.png"  alt="product-screenshot-4"  width="600">
 
 <br>
 
