@@ -157,33 +157,6 @@ Product Screenshot 3
 
 Product Screenshot 4
 
-</td>
-
-</tr>
-
-<tr>
-
-<td  align="center">
-
-<img  src="images/5.png"  alt="product-screenshot-5"  width="300">
-
-<br>
-
-Product Screenshot 5
-
-</td>
-
-<td  align="center">
-
-<img  src="images/6.png"  alt="product-screenshot-6"  width="300">
-
-<br>
-
-Product Screenshot 6
-
-</td>
-
-</tr>
 
 </table>
 
@@ -287,12 +260,6 @@ DB_USER = <database user>
 
 DB_PASSWORD = <database password>
 
-EMAIL_HOST_PASSWORD = <email host>
-
-DEFAULT_FROM_EMAIL = <email host>
-
-EMAIL_HOST_USER = <email host>
-
 DJANGO_SUPERUSER_USERNAME = <django super user>
 
 DJANGO_SUPERUSER_EMAIL = <django admin email>
@@ -309,23 +276,7 @@ sudo service postgres start
 
 ```
 
-6. Start Redis Server
-
-```python
-
-redis-server
-
-```
-
-7. Start Celery
-
-```python
-
-celery -A crispy_credits worker -l info
-
-```
-
-8. Run the migrations
+6. Run the migrations
 
 ```python
 
@@ -335,7 +286,7 @@ python manage.py migrate
 
 ```
 
-9. Test the application
+7. Test the application
 
 ```python
 
@@ -343,7 +294,7 @@ python manage.py test
 
 ```
 
-10. Run the application
+8. Run the application
 
 ```python
 
