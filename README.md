@@ -33,7 +33,6 @@
 
 <a  href="https://github.com/LondheShubham153/">Report Bug</a>
 
-·
 
 <a  href="https://github.com/LondheShubham153/">Request Feature</a>
 
