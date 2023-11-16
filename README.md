@@ -319,7 +319,7 @@ docker-compose  up  -d
 
 ```sh
 
-docker-compose  down  -d
+docker-compose  down
 
 ```
 
