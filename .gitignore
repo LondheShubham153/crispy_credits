@@ -1,0 +1,7 @@
+crispy_credits/__pycache__/*
+env
+.env
+crispy_credits/__pycache__/settings.cpython-39.pyc
+crispy_credits/__pycache__/urls.cpython-39.pyc
+crispy_credits/__pycache__/settings.cpython-39.pyc
+*.pyc
